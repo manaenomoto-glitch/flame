@@ -301,6 +301,9 @@ Before starting, install the following software:
 
 The default installation options are fine.
 
+
+## Fork your own version of the repo
+
 ## Clone the Repository
 
 Open a terminal and run:
@@ -308,7 +311,7 @@ Open a terminal and run:
 ```bash
 mkdir dev
 cd dev
-git clone https://github.com/MrWardKKHS/flame.git
+git clone https://github.com/[your username]/flame.git
 cd flame
 code .
 ```
