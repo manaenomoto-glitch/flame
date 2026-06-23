@@ -4,20 +4,29 @@ In this task, you'll build a simple campaign tracker that updates a donation tot
 when a button is clicked. Every $10 matters!
 
 🟡 PREDICT  
-What will the total be after 3 clicks?
+What will the total be after 3 clicks? 
+$30
 What happens when you reach $50? $100?
+📣 Gaining momentum!
+🔥 Almost at full strength
 
 🟢 RUN  
 Click the “Give $10” button a few times and see what changes on the page.
 
 🔵 INVESTIGATE  
 - What variable is keeping track of the total?
+<button id="giveButton">Give $10</button>
 - Where is it being updated?
+<p id="totalDisplay">Total raised: $0</p>
 - How does the code decide which message to show?
+if statements
+
 
 🟠 MODIFY  
 - Add a **Refund $10** button that subtracts from the total.
+
 - Stop the total from going below $0.
+
 - If someone tries to refund when there’s nothing left, show a message:
   “You can’t refund — the pot is empty!”
 

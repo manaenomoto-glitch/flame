@@ -11,18 +11,21 @@ Some are broken logic. Some are things JavaScript doesn’t even allow.
 🟡 PREDICT  
 Before you even run it:  
 - What stands out as broken?  
+if i submit, there is not appered anything
 - What do you think will happen when you try it?
+
 - What do you think *should* happen?
+it should give us massages like "You are legend!!"
 
 🟢 RUN  
 Try entering an age and clicking the button.
 
 🔵 INVESTIGATE  
 - Can you spot:  
-  - Syntax errors (e.g. `fuction`)  
-  - Invalid logic (e.g. `when`)  
+  - Syntax errors (e.g. `fuction`)  ok
+  - Invalid logic (e.g. `when`)  ok
   - Missing `let`, missing parentheses  
-  - Typos like `doccument` and `getelementbyid`
+  - Typos like `doccument` and `getelementbyid`ok
 
 🟠 MODIFY  
 Fix the code step-by-step:

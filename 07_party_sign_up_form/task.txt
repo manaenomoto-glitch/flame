@@ -12,25 +12,31 @@ What do you think would happen if you left one of the fields blank?
 🟢 RUN  
 Try it out. Type your name and region and click “Join the Party”.  
 What happens? Is it what you expected?
+it answer as "Welcome, mana from soldier Thanks for joining the party "
 
 🔵 INVESTIGATE  
 Let’s pick apart the code:
 - What keyword is used to make a variable?
+let
 - What is the = sign doing?
+put valuable
 - Which line grabs the name?
+input
 - Which line grabs the region?
+
 - How is the final message put together?
+put + between massages 
 
 🟠 MODIFY  
 Now try improving how the message is displayed:
-- Add a line break between the name and region using `\\n`
-- Change the sentence format completely (e.g. “From [region], we welcome [name] to the movement!”)
+- Add a line break between the name and region using `\n`✅
+- Change the sentence format completely (e.g. “From [region], we welcome [name] to the movement!”)✅
 - If either input is left blank, show “Please enter both your name and region.”
 You will need an if block to do this.
 
 🔴 MAKE  
 Now extend it:
-1. Add a third input box for a campaign role (like “strategist” or “organiser”).
+1. Add a third input box for a campaign role (like “strategist” or “organiser”).✅
 2. Update the message to say:
    “Welcome [name] from [region]. Your role is [role] in [Party Name].”
 
