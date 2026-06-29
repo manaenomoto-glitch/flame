@@ -14,6 +14,10 @@ function showPolicies() {
     item.innerText = policies[i];
     list.appendChild(item);
   }
-  document.getElementById("policyList").innerText = policies;
+   function addPolocy(){
+    let policy = document.getElementById("textInput").value
+    policies.push (policy)
+   }
 }
-document.getElementById("showPolicies").onclick = policies;
+document.getElementById("showPolicies").onclick = showPolicies;
+document.getElementById("addPolicyButton").onclick = addPolicy;
