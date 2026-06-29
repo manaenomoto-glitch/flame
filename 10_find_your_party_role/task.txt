@@ -6,25 +6,38 @@ This task uses two input types you haven't worked with yet:
 
 🟡 PREDICT  
 What will happen if you pick Progressive and tick Environment?  
+it show "🌱 You’d be perfect for the Outreach Team."
 What if you tick everything?
+I can't tick all party alignment. However, Progressive with all issues I care about, it shows "🌱 You’d be perfect for the Outreach Team.",
+Moderate with all issues I care about, "📊 You’d make a great Policy Analyst.", and Traditional with all issues I care about, it shows "🎖️ You’d bring valuable perspective to Strategy."
+
+
 
 🟢 RUN  
 Try different combinations and see which role the system suggests.
 
 🔵 INVESTIGATE  
 - How is the selected radio button being read?
+
 - What does the loop over checkboxes do?
+
 - What is the `includes` function doing?
+
 - What are the || and the && symbols doing?
+|| means "or" and && means "&&". These things using 
 
 🟠 MODIFY  
 - Add another issue (e.g. Housing) and link it to a new role.
+
 - Add a check that says “Too many issues selected!” if they tick more than 3 boxes.
 
 🔴 MAKE  
 Create your own version:
 - Radio: choose your political identity
+
 - Checkboxes: choose issues you care about
+
 - Output: a role, badge, or political codename that fits the combination
+
 
 When you're done, swap with a classmate and try to get all the outcomes!

@@ -14,4 +14,6 @@ function showPolicies() {
     item.innerText = policies[i];
     list.appendChild(item);
   }
+  document.getElementById("policyList").innerText = policies;
 }
+document.getElementById("showPolicies").onclick = policies;
